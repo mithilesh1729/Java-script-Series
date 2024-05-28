@@ -4,7 +4,7 @@
 
 // console.log(3+3)
 
-let name="Mithilesh"
+let name="Mithilesh"  
 let age=20
 let isLoggedIn=true
 
@@ -13,7 +13,7 @@ let isLoggedIn=true
 //string=" "
 //boolean ----> true or false
 // null  --->standalone value
-//undefined ---> value not assigned
+//undefined ---> value not assigned 
 //symbol  ---> uniqueness
 
 console.log(typeof null); //----->object type
