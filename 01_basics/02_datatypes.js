@@ -18,3 +18,4 @@ let isLoggedIn=true
 
 console.log(typeof null); //----->object type
 console.log(typeof undefined); // undefined type 
+//
