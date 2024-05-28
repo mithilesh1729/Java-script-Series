@@ -27,4 +27,4 @@ console.log(Boolean(someString2));
 // for conversion there are some methods starting with Capital Symbol
 // To convert into number datatype ---> Number()
 // To conert into string datatype ---> String()
-//  To convert into boolean datatype ---> Boolean()  --
+//  To convert into boolean datatype ---> Boolean()  
