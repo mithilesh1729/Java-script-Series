@@ -18,3 +18,8 @@ Prefer not use var
 bacause of issue of Block scope and functional scope
 */
 
+/* var:----> The variable is accessible throughout the function where it is declared.
+   let:----> The variable is only accessible inside the block {} where it is declared.
+
+*/
+
