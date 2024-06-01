@@ -51,6 +51,10 @@ let gameCounter=100
 gameCounter++
 // console.log(gameCounter);
 
+let value=3
+let negValue=-value
+console.log(negValue);  //-3
+
 
 
 
