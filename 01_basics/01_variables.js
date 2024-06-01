@@ -1,3 +1,5 @@
+// JS gives the flexibity , One may/mayNOT use semicolon at the end of statement
+
 const accountId=455523
 let accountEmail="mithilesh@google.com"
 var accountPassword="12345"
