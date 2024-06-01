@@ -19,13 +19,13 @@ let someString=""
 // console.log(Boolean(someString))
 
 let someString2="Mithilesh"
-console.log(Boolean(someString2))
+// console.log(Boolean(someString2))
 
 // ""---->false
 // "Mithilesh" ----> true
 
 // for conversion there are some methods starting with Capital Symbol
-// To convert into number datatype ---> Number()
+// To convert into number datatype ---> Number(variables whose datatypes needs to be changed)
 // To conert into string datatype ---> String()
 //  To convert into boolean datatype ---> Boolean()  
 
@@ -42,13 +42,14 @@ let str3= str1+str2
 // console.log(1 + 2 + "2") //  KHaTAAAAARA
 
 
-console.log(+true); // 1
-// console.log(true+); // Error
+// console.log(+true);  // 1  -----> unary plus (+) operator is used to convert its operand into a number.
+// console.log(true+);  // Error -----> + operator is a binary operator
+// console.log(true+1); //  2
 
 let gameCounter=100
 ++gameCounter
 gameCounter++
-console.log(gameCounter);
+// console.log(gameCounter);
 
 
 
