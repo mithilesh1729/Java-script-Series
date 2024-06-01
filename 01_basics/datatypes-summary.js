@@ -52,17 +52,17 @@ const bigNumber = 333343798239n; //n  end me lagaane se number bigInt
  when declaring variables using let, we don't need to specify the type of the variable like in other programming languages.
 */
 
-const heroes = ["shaktiman", "naga", "Roshan"];
+const heroes = ["shaktiman", "naga", "Roshan"]
 
 let myObj = {
-  name: "Mithilesh",
+  name: "Mithilesh",   //use SEMICOLON to give values inside obejct declaration
   age: 25,
   isStudent: true,
-};
+}
 
 let myFunction = function () {
-  console.log("Hello world");
-};
+  console.log("Hello world")
+}
 
 console.log(typeof heroes); // Array object
 console.log(typeof myObj); // obejct
