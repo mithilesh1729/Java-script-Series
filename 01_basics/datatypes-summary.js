@@ -67,3 +67,29 @@ let myFunction = function () {
 console.log(typeof heroes); // Array object
 console.log(typeof myObj); // obejct
 console.log(typeof myFunction); //function object
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//   Stack(Primitive)  ,  Heap(Non-Primitive)
+let channelName = "mithileshdotcom"
+let anotherChannelName = "coffeeaurcode"
+
+anotherChannelName = channelName
+
+console.log(anotherChannelName)// mithileshdotcom
+// copy of channelName's value is provided to variable anotherChannelName
+
+let userOne = {
+  email: "mithilesh@google.com",
+  upi: "userOne@ybl"
+}
+
+let userTwo = userOne  //direct Memory|(Heap) Reference is given to userTwo of userOne
+
+
+userTwo.email = "chaiaurcode@email.com"  //Hence Changes done by userTwo would reflect in userOne as well 
+
+console.log(userOne.email); // chaiaurcode@email.com
+console.log(userTwo.email);  // chaiaurcode@email.com
